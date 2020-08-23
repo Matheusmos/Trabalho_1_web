@@ -1,0 +1,26 @@
+.botao {
+    
+    top: 0px;
+    margin:0px;
+    padding: 0px;
+    width: 120px;
+    height: 24px;
+    cursor: pointer;
+    background-color: #030212;
+}
+
+button#botao2 {
+    
+    background-color:#1c08e2;
+}
+
+button#botao3 {
+    background-color:#211A4F;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}

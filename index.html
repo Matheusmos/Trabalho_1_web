@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Evento dos memes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    </script>
+  </head>
+  <body>
+    <div class="fundo" >
+      <div class="first">
+        <button class="botao" data-color = "#030212" id="botao1"></button>
+        <button class="botao" data-color = "#1c08e2" id="botao2"></button>
+        <button class="botao" data-color = "#1c08e2" id="botao3"></button>
+      </div>
+    </div>
+    <div class="container">
+      Aqui tem um texto
+    </div>
+    <script type="text/javascript" >
+      var color = ["#030212","#1c08e2","#211A4F"]
+
+    document.querySelector("button#botao1").addEventListener("click",
+    function(){
+        document.querySelector("body").style.background = color[0]
+    });
+
+    document.querySelector("button#botao2").addEventListener("click",
+    function(){
+        document.querySelector("body").style.background = color[1]
+    });
+
+    document.querySelector("button#botao3").addEventListener("click",
+    function(){
+        document.querySelector("body").style.background = color[2]
+    });
+    </script>
+  </body>
+</html>
