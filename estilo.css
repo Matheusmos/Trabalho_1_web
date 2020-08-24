@@ -3,7 +3,7 @@
     top: 0px;
     margin:0px;
     padding: 0px;
-    width: 120px;
+    width: 24px;
     height: 24px;
     cursor: pointer;
     background-color: #030212;
@@ -21,7 +21,7 @@ button#botao3 {
 .first {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center
 }
 
