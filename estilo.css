@@ -48,3 +48,8 @@ div#links {
 a{
     padding-right: 80px;
 }
+
+.titulo{
+    padding-left: 20px;
+    font-size: 36px;
+}
