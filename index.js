@@ -1,4 +1,4 @@
-var color = ["#030212","#1c08e2","#211A4F"]
+var color = ["#030212","#1c08e2","#211A4F","#F7120D","#B80D09"]
 
     document.querySelector("button#botao1").addEventListener("click",
     function(){
@@ -13,4 +13,14 @@ var color = ["#030212","#1c08e2","#211A4F"]
     document.querySelector("button#botao3").addEventListener("click",
     function(){
         document.querySelector("body").style.background = color[2]
+    });
+
+    document.querySelector("button#botao4").addEventListener("click",
+    function(){
+        document.querySelector("body").style.background = color[3]
+    });
+
+    document.querySelector("button#botao5").addEventListener("click",
+    function(){
+        document.querySelector("body").style.background = color[4]
     });

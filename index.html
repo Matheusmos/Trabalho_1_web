@@ -4,7 +4,11 @@
     <title>Desenvolvimento Web</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
-    </script>
+    <script language=javascript type="text/javascript">
+      function newPopup(){
+      alert('Equipe:\n  Matheus de Oliveira Silva\n  Tamires Ariane Silva Sousa\nDisciplina:\n  Desenvolvimento de Software para Web')
+      }
+    </script> 
   </head>
   <body>
     <div class="fundo" >
@@ -12,20 +16,38 @@
         <button class="botao" id="botao1"></button>
         <button class="botao" id="botao2"></button>
         <button class="botao" id="botao3"></button>
+        <button class="botao" id="botao4"></button>
+        <button class="botao" id="botao5"></button>
       </div>
     </div>
     <div class="container">
       <b class="titulo">Desenvolvimento Web</b>
       <div id="links">
-        <a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&t=1128s" style="color: white;">Link1</a>
-        <a href="https://dribbble.com/shots/14065352-Folkart-Web-Landing-Screen/attachments/5684724?mode=media" style="color: white;">Link2</a>
-        <a href="https://pt-br.reactjs.org/" style="color: white;">Link3</a>
-        <a href="https://reactnative.dev/" style="color: white;">Link4</a>
+        
+          <a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&t=1128s" style="color: white;">Link1</a>
+          <a href="https://dribbble.com/shots/14065352-Folkart-Web-Landing-Screen/attachments/5684724?mode=media" style="color: white;">Link2</a>
+          <a href="https://pt-br.reactjs.org/" style="color: white;">Link3</a>
+          <a href="https://reactnative.dev/" style="color: white;">Link4</a>
+        
       </div>
-      
     </div>
-    <script type="text/javascript" src="./index.js" >
-      
-    </script>
+    <div class="container2">
+      <div class="mensagem">
+        <b style="font-size: 26px;">Deixe Aqui seu Recado!</b><br>
+        <input type="text"  name="nome" id="nome" placeholder="Seu nome"><br>
+        <input type="text" name="mensagem" id="msg" placeholder="Sua mensagem">
+        <button id="btn">Enviar</button>
+      </div>
+      <div class="imagem">
+        <img src="./imagem/2.jpg">
+      </div>
+    </div>
+    <div class="divulga">
+      Aqui tem um texto
+    </div>
+    <div id="rodape">
+      <button class="btn" onClick=newPopup()>Créditos</button>
+    </div>
+    <script type="text/javascript" src="./index.js" > </script>
   </body>
 </html>
