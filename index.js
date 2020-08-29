@@ -1,5 +1,5 @@
-var color = ["#030212","#1c08e2","#211A4F","#F7120D","#B80D09"]
-
+var color = ["#030212","#1c08e2","#211A4F"]
+var contador = 0;
     document.querySelector("button#botao1").addEventListener("click",
     function(){
         document.querySelector("body").style.background = color[0]
@@ -15,24 +15,20 @@ var color = ["#030212","#1c08e2","#211A4F","#F7120D","#B80D09"]
         document.querySelector("body").style.background = color[2]
     });
 
-    document.querySelector("button#botao4").addEventListener("click",
-    function(){
-        document.querySelector("body").style.background = color[3]
-    });
+    
+    function enviar(){
+        var texto  = document.createTextNode("Um título qualquer");
+        document.queryselector("#formulario").appendChild(texto);
+       
+    };
 
-    document.querySelector("button#botao5").addEventListener("click",
-    function(){
-        document.querySelector("body").style.background = color[4]
-    });
-
-
-    function enviar () { 
+    function adcElemento () { 
         var mensagem = document.createElement("div");
         mensagem.setAttribute('id', contador);
         document.getElementById("mural").appendChild(mensagem);
         var nome = document.getElementById("nm").value; 
         var msg = document.getElementById("mgm").value;
-        var conteudo = document.createTextNode(nome + ": " + msg);
+        var conteudo = document.createTextNode(nome + ": " + msg + "  ");
         var botao = document.createElement("button");
         botao.setAttribute('id', contador);
         botao.setAttribute('onClick', "excluir(this.id)");
@@ -49,3 +45,5 @@ var color = ["#030212","#1c08e2","#211A4F","#F7120D","#B80D09"]
       function excluir(id){
       	document.getElementById(id).remove();
       }
+      
+      

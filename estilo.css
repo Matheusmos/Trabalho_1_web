@@ -18,18 +18,6 @@ button#botao3 {
     background-color:#211A4F;
 }
 
-button#botao4 {
-    background-color:#F7120D;
-}
-
-button#botao5 {
-    background-color:#B80D09;
-}
-
-button#botao6 {
-    background-color:#B3A09F;
-}
-
 .first {
     display: flex;
     flex-direction: row;
@@ -40,11 +28,7 @@ button#botao6 {
 
 body {
     background-color: #030212;
-}
-.titulo{
-    padding-left: 20px;
-    font-size: 36px;
-    padding-right: 20px;
+    
 }
 
 .container{
@@ -53,55 +37,94 @@ body {
     flex-direction: row;
     align-items: center;
     box-shadow:0px 0px 0px 1px white inset;
+    
 }
 
 div#links {
-    padding-left: 400px; 
-     
+    padding-left: 400px;
+    
+    
 }
 
 a{
     padding-right: 80px;
 }
 
-.container2{
-    flex-direction: row;
-    display: flex;
-    background-color: white;
-    margin-top: 30px;
+.titulo{
+    padding-left: 20px;
+    font-size: 36px;
+    
+}
+.titulo2{
+    padding-left: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
-.mensagem{
-    flex-direction: column;
+.formulario{
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.inserir{
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.envio{
+    margin-left: 140px;
+}
+
+.mural{
+    color: white;
+    height: 120px;
+    box-shadow:0px 0px 0px 1px white inset;
     display: flex;
-    margin-right: 200px;
-    margin-left: 100px;
-    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.corpo{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
 }
 
 .imagem{
-    flex-direction: column;
-    display: flex;
-    margin-left: 200px;
+    padding-left: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div#rodape{
     position:absolute;
     bottom:0;
-    width:100%;
+    width:99%;
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
-.mural{
-    color:white;
-    flex-direction: column;
+.titulo3{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
+b#titulo3{
+    font-size: 24px;
+}
