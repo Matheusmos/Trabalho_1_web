@@ -24,3 +24,28 @@ var color = ["#030212","#1c08e2","#211A4F","#F7120D","#B80D09"]
     function(){
         document.querySelector("body").style.background = color[4]
     });
+
+
+    function enviar () { 
+        var mensagem = document.createElement("div");
+        mensagem.setAttribute('id', contador);
+        document.getElementById("mural").appendChild(mensagem);
+        var nome = document.getElementById("nm").value; 
+        var msg = document.getElementById("mgm").value;
+        var conteudo = document.createTextNode(nome + ": " + msg);
+        var botao = document.createElement("button");
+        botao.setAttribute('id', contador);
+        botao.setAttribute('onClick', "excluir(this.id)");
+        var nomeBotao= document.createTextNode("Excluir");
+        botao.appendChild(nomeBotao);
+        
+        mensagem.appendChild(conteudo);
+        mensagem.appendChild(botao);
+        
+        contador++;
+        
+      }
+      
+      function excluir(id){
+      	document.getElementById(id).remove();
+      }

@@ -56,11 +56,52 @@ body {
 }
 
 div#links {
-    padding-left: 400px;
-    
-    
+    padding-left: 400px; 
+     
 }
 
 a{
     padding-right: 80px;
 }
+
+.container2{
+    flex-direction: row;
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.mensagem{
+    flex-direction: column;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.imagem{
+    flex-direction: column;
+    display: flex;
+    margin-left: 200px;
+}
+
+div#rodape{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mural{
+    color:white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
