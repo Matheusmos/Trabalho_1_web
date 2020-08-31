@@ -41,8 +41,8 @@ body {
 }
 
 div#links {
-    padding-left: 400px;
     
+    margin-left: 400px;
     
 }
 
@@ -87,7 +87,7 @@ a{
     align-items: center;
     margin-top: 10px;
     word-wrap: break-word;
-    overflow: auto;
+    overflow: auto; 
 }
 
 .corpo{
@@ -106,7 +106,7 @@ a{
 }
 
 div#rodape{
-    position:absolute;
+    position:relative;
     bottom:0;
     width:99%;
     background-color: white;
@@ -116,6 +116,7 @@ div#rodape{
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 3px;
 }
 
 .titulo3{
@@ -127,4 +128,10 @@ div#rodape{
 
 b#titulo3{
     font-size: 24px;
+}
+
+.btn{
+    background-color: #030212;
+    color: white;
+    cursor: pointer;
 }
